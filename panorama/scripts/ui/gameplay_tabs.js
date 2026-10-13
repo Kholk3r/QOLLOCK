@@ -188,7 +188,7 @@
                     createSliderRow(sectionParent, "Size", "CUSTOM_HITMARKER_SIZE", "hitmarker_size_4_40", "Length of each hit marker line. Default 20");
                     createSliderRow(sectionParent, "Crit Size", "CUSTOM_HITMARKER_CRIT_SIZE", "hitmarker_size_4_40", "Length of each line on a headshot or crit. Default 20");
                     createSliderRow(sectionParent, "Thickness", "CUSTOM_HITMARKER_THICKNESS", "hitmarker_thickness_1_8", "Thickness of each hit marker line. Default 2");
-                    createSliderRow(sectionParent, "Spacing", "CUSTOM_HITMARKER_OFFSET", "hitmarker_offset_4_60", "How far the lines sit from the center of the crosshair. Default 40");
+                    createSliderRow(sectionParent, "Spacing", "CUSTOM_HITMARKER_OFFSET", "hitmarker_offset_4_40", "How far the lines sit from the center of the crosshair. Default 40");
                 }
                 if (createRow) {
                     createRow(sectionParent, "Color", "CUSTOM_HITMARKER_COLOR", "palette", null, null, null, palette, "Choose a preset color for the hit marker.");

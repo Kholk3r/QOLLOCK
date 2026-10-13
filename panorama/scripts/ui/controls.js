@@ -80,7 +80,7 @@
         alert_ms_1_50:      { min: 1,   max: 50,   step: 1 },
         hitmarker_size_4_40:     { min: 4, max: 40, step: 1 },
         hitmarker_thickness_1_8: { min: 1, max: 8,  step: 1 },
-        hitmarker_offset_4_60:   { min: 4, max: 60, step: 1 }
+        hitmarker_offset_4_40:   { min: 4, max: 40, step: 1 }
     };
 
     // -------------------------------------------------------------------------

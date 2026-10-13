@@ -205,7 +205,7 @@ for (const [key, shape, rawValues, expectedValues] of [
     ["CUSTOM_HITMARKER_SIZE", "hitmarker_size_4_40", [18, -9, 99], [18, 4, 40]],
     ["CUSTOM_HITMARKER_CRIT_SIZE", "hitmarker_size_4_40", [34, -9, 99], [34, 4, 40]],
     ["CUSTOM_HITMARKER_THICKNESS", "hitmarker_thickness_1_8", [5, -9, 99], [5, 1, 8]],
-    ["CUSTOM_HITMARKER_OFFSET", "hitmarker_offset_4_60", [22, -9, 99], [22, 4, 60]]
+    ["CUSTOM_HITMARKER_OFFSET", "hitmarker_offset_4_40", [22, -9, 99], [22, 4, 40]]
 ]) {
     test(`settings slider ${key}: values survive export/import including bounds`, () => {
         const env = loadSettingsEnvironment();

@@ -29,7 +29,7 @@ const END = "/* ==== END QOLLOCK Custom Hit Marker ==== */";
 const RANGES = {
     length: { min: 4, max: 40, step: 1, native: 20 },
     thickness: { min: 1, max: 8, step: 1, native: 2 },
-    offset: { min: 4, max: 60, step: 1, native: 40 }
+    offset: { min: 4, max: 40, step: 1, native: 40 }
 };
 
 // Palette index 0 keeps the native colors, so only 1..29 get rules.

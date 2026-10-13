@@ -1801,7 +1801,7 @@ var QOL_COMPACT_SCHEMA_4_0_6 = QOL_COMPACT_SCHEMA_UTILS.AppendUniqueSchemaFields
         { key: "CUSTOM_HITMARKER_SIZE", min: 4, max: 40, step: 1 },
         { key: "CUSTOM_HITMARKER_CRIT_SIZE", min: 4, max: 40, step: 1 },
         { key: "CUSTOM_HITMARKER_THICKNESS", min: 1, max: 8, step: 1 },
-        { key: "CUSTOM_HITMARKER_OFFSET", min: 4, max: 60, step: 1 },
+        { key: "CUSTOM_HITMARKER_OFFSET", min: 4, max: 40, step: 1 },
         { key: "CUSTOM_HITMARKER_COLOR", min: 0, max: 29, step: 1 },
         { key: "CUSTOM_HITMARKER_CRIT_COLOR", min: 0, max: 29, step: 1 }
     ]
