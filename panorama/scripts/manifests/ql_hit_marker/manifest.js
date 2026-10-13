@@ -24,9 +24,9 @@
 
     // "def" is the native hit marker (20px long, 2px thick, 40px from center), so a
     // value at its default needs no class and the stock rules apply.
-    var LENGTH = { min: 4, max: 40, step: 2, def: 20 };
+    var LENGTH = { min: 4, max: 40, step: 1, def: 20 };
     var THICKNESS = { min: 1, max: 8, step: 1, def: 2 };
-    var OFFSET = { min: 4, max: 60, step: 2, def: 40 };
+    var OFFSET = { min: 4, max: 60, step: 1, def: 40 };
     var PALETTE_MAX = 29;
 
     function _isTrue(v) { return v === true || v === 1 || String(v) === "true"; }

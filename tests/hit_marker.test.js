@@ -183,7 +183,7 @@ test("out-of-range, off-grid and invalid values are clamped and snapped to a cla
             CUSTOM_HITMARKER_SIZE: 999,
             CUSTOM_HITMARKER_CRIT_SIZE: -4,
             CUSTOM_HITMARKER_THICKNESS: "banana",
-            CUSTOM_HITMARKER_OFFSET: 23,
+            CUSTOM_HITMARKER_OFFSET: 23.6,
             CUSTOM_HITMARKER_COLOR: 77,
             CUSTOM_HITMARKER_CRIT_COLOR: -1
         }) }

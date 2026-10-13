@@ -27,9 +27,9 @@ const END = "/* ==== END QOLLOCK Custom Hit Marker ==== */";
 // Native values come from base/ability_hud_elements/element_gun.css:
 // hitMarkerWidth 20px, hitMarkerHeight 2px, translate 40px, white hits, yellow crits.
 const RANGES = {
-    length: { min: 4, max: 40, step: 2, native: 20 },
+    length: { min: 4, max: 40, step: 1, native: 20 },
     thickness: { min: 1, max: 8, step: 1, native: 2 },
-    offset: { min: 4, max: 60, step: 2, native: 40 }
+    offset: { min: 4, max: 60, step: 1, native: 40 }
 };
 
 // Palette index 0 keeps the native colors, so only 1..29 get rules.
